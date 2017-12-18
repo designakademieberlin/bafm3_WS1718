@@ -1,0 +1,27 @@
+body {
+    background-color:azure;
+}
+
+body>* {
+    border: 1px solid red;
+}
+
+.container { /* mit Punkt = Klasse */
+    
+}
+
+/********* hier Height width Standards ********/
+.h100 {height: 100vh;}
+.h80 {height: 80vh;}
+.h50 {height: 50vh;}
+.w100 {width: 100vw;}
+.w80 {width: 80vw;}
+.w50 {width: 50vw;}
+.color1 {
+    background-color: darkblue;
+}
+
+
+
+
+
