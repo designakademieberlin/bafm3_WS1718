@@ -7,73 +7,19 @@ html,body { /* mehrere Selectorne */
     color: white;
 }
 
-body {
-    background-color:aquamarine;
-    background-image: url(img/bkgr1.jpg);
-    background-size: 100% auto; /*voll breiten,entsprechend hoch */
-    background-repeat: no-repeat;
+
+.blue {
+    background-color: gold;
+    transition-property: all;
+    transition-duration: 2s;
 }
 
-button {
-    background: transparent; /* BKGR weg */
-    border: none; /* kein Rand */
-    color: white;
-    background-color: orangered;    
-    border-radius: 2vw;
-        
+.video {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
 }
-
-
-/*********** EO Globals ***********/
-
-.height1 {height:calc(100vh/8);}
-.height2 {height:calc(100vh/8*2);}
-.height3 {height:calc(100vh/8*3);}
-.height4 {height:calc(100vh/8*4);}
-.height5 {height:calc(100vh/8*5);}
-.height6 {height:calc(100vh/8*6);}
-.height7 {height:calc(100vh/8*7);}
-.height8 {height:calc(100vh);}
-
-.col1 {width:calc(100vw/5);}
-.col2 {width:calc(100vw/5*2);}
-.col3 {width:calc(100vw/5*3);}
-.col4 {width:calc(100vw/5*4);}
-.col5 {width:calc(100vw);}
-
-/*********** Colors ***********/
-
-.color1 {background-color: orange;}
-
-.gradient1 {
-background: #1e5799; /* Old browsers */
-background: -moz-linear-gradient(top, #1e5799 34%, #7db9e8 75%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #1e5799 34%,#7db9e8 75%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #1e5799 34%,#7db9e8 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
-}
-
-
-/****** Animation Beispiele Transitions */
-
-
-.event1 {background-color: orange;
-        color:dimgray;
-        transition-property: background-color,color;
-        transition-duration: 5s, 0.5s;
-}
-
-.event1:hover {
-    color: red;
-    background-color: greenyellow;
-    transition-property: background-color,color;
-    transition-duration: 5s, 0.5s;
-
-}
-
-
-
-
 
 
 
